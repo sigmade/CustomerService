@@ -16,7 +16,7 @@ namespace NotificationService.Controllers
         [HttpGet]
         public async Task<IActionResult> GetMessage()
         {
-            return Ok();
+            return Ok("test");
         }
     }
 }
